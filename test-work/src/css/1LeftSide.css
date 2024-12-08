@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.timer {
+    transition: all 1s ease;
+    user-select: none;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.AddUser {
+    border-radius: 10px;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 2px 2px 10px blue, -2px -2px 10px red;
+    cursor: pointer; 
+}
+
+
